@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StudentRosterProgram.Model
 {
-    class Student
+    public class Student
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -21,7 +21,7 @@ namespace StudentRosterProgram.Model
 
         public override string ToString()
         {
-            return string.Format("Student Name: {0} | Student Grade: {1}", this.FullName, this.Grade);
+            return $"Student Name: {this.FullName} | Student Grade: {this.Grade}";
         }
     }
 }

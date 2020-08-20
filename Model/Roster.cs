@@ -5,7 +5,7 @@ using System.Text;
 
 namespace StudentRosterProgram.Model
 {
-    class Roster : ICollection<Student>
+    public class Roster : ICollection<Student>
     {
 
         public List<Student> RosterStudents { get; }

@@ -3,9 +3,9 @@ using StudentRosterProgram.Model;
 
 namespace StudentRosterProgram
 {
-    class Application
+    public class Application
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             DisplayRosterStudentsWithRosterCollection();
             DisplayRosterStudentsWithDataMember();
