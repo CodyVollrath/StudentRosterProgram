@@ -10,6 +10,8 @@ namespace StudentRosterProgram.Model
 
         public List<Student> RosterStudents { get; }
 
+
+        /// <summary>Initializes a new instance of the <see cref="Roster" /> class.</summary>
         public Roster()
         {
             this.RosterStudents = new List<Student>();
